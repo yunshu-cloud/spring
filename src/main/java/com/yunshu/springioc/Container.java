@@ -26,9 +26,22 @@ public class Container {
 
          while(keys.hasMoreElements()){
              String key = keys.nextElement().toString();
+             String value = properties.getProperty(key);
 
+             // 创建对象
+             try {
+                 Object o = Class.forName(value).newInstance();
+
+                 // 将对象放入map集合中
+                 map.put(key,o);
+             } catch (Exception e) {
+                 throw new RuntimeException(e);
+             }
          }
+     }
 
-
+     // 获取map集合中的对象
+     public static Object getBean(String key){
+         return map.get(key);
      }
 }

@@ -1,6 +1,6 @@
-package com.yunshu.springioc.dao;
+package com.yunshu.springcontainer.dao;
 
-import com.yunshu.springioc.pojo.Student;
+import com.yunshu.springcontainer.pojo.Student;
 
 public interface StudentDao {
     // 根据id查询学生

@@ -1,7 +1,7 @@
-package com.yunshu.springioc.dao.impl;
+package com.yunshu.springcontainer.dao.impl;
 
-import com.yunshu.springioc.dao.StudentDao;
-import com.yunshu.springioc.pojo.Student;
+import com.yunshu.springcontainer.dao.StudentDao;
+import com.yunshu.springcontainer.pojo.Student;
 
 public class StudentImpl implements StudentDao {
     // 接口实现方法

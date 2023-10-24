@@ -1,9 +1,9 @@
-package com.yunshu.springioc.service;
+package com.yunshu.springcontainer.service;
 
-import com.yunshu.springioc.Container;
-import com.yunshu.springioc.dao.StudentDao;
-import com.yunshu.springioc.dao.impl.StudentImpl;
-import com.yunshu.springioc.pojo.Student;
+import com.yunshu.springcontainer.Container;
+import com.yunshu.springcontainer.dao.StudentDao;
+import com.yunshu.springcontainer.dao.impl.StudentImpl;
+import com.yunshu.springcontainer.pojo.Student;
 
 public class StudentService {
 

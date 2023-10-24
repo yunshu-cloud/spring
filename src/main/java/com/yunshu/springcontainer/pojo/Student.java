@@ -1,4 +1,4 @@
-package com.yunshu.springioc.pojo;
+package com.yunshu.springcontainer.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

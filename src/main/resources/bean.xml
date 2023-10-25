@@ -5,4 +5,10 @@
 
     <bean id="studentDao" class="com.yunshu.springioc.dao.impl.StudentImpl"></bean>
 
+    <bean id="objA" class="com.yunshu.springioc.pojo.circle.A">
+        <property name="b" ref="objB"></property>
+    </bean>
+    <bean id="objB" class="com.yunshu.springioc.pojo.circle.B">
+        <property name="a" ref="objA"></property>
+    </bean>
 </beans>
